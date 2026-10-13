@@ -37,7 +37,7 @@
 ## 3. 离线演示 vs 运行 Agent
 
 - **离线演示**：用同一套工具、世界和检查规则跑预先写好的脚本。免费、结果固定、在哪里都能用，适合先看懂一关的流程。
-- **运行 Agent**：把你的任务和插上的工具交给 Claude，由它自己决定一切。只在以 claude.ai artifact 打开时可用，用玩家自己的 Claude 额度，第一次会先请求同意。每次结果可能不同。
+- **运行 Agent**：把你的任务和插上的工具交给 Claude，由它自己决定一切。只在 claude.ai 版本可用（[中文](https://claude.ai/artifact/4mwyxtLY6snRz9fK2JsRW9) · [English](https://claude.ai/artifact/HDzkvQuPtRfKKBz5sCt5Zv)），需要登录 Claude，用你自己的 Claude 额度，第一次会先请求同意。每次结果可能不同。
 
 ## 4. 评分
 

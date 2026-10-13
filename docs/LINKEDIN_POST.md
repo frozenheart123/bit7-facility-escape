@@ -30,7 +30,8 @@ What concept do you find hardest to explain to non-engineers?
 #AI #GenerativeAI #AIAgents #RAG #MCP #LLM #FinTech #LearningByDoing #OpenSource
 
 **First comment:**
-▶️ Play: https://frozenheart123.github.io/bit7-facility-escape/
+▶️ Play (free, no sign-up): https://frozenheart123.github.io/bit7-facility-escape/
+🤖 Play with live AI (needs a Claude account, uses your own plan): https://claude.ai/artifact/HDzkvQuPtRfKKBz5sCt5Zv
 💻 Code (MIT): https://github.com/frozenheart123/bit7-facility-escape
 
 ---
@@ -59,7 +60,8 @@ What concept do you find hardest to explain to non-engineers?
 #AI #人工智能 #AIAgent #RAG #MCP #大模型 #金融科技 #开源
 
 **第一条留言：**
-▶️ 试玩：https://frozenheart123.github.io/bit7-facility-escape/
+▶️ 试玩（免费、不用注册）：https://frozenheart123.github.io/bit7-facility-escape/
+🤖 真 AI 版（需要 Claude 账号，用你自己的额度）：https://claude.ai/artifact/4mwyxtLY6snRz9fK2JsRW9
 💻 源码（MIT）：https://github.com/frozenheart123/bit7-facility-escape
 
 ---

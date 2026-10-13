@@ -37,7 +37,7 @@ You are not the robot's driver. You are its AI engineer.
 ## 3. Offline demo vs. live agent
 
 - **Offline demo** runs a pre-written script through the same tools, world and checks. It's free, deterministic and works anywhere, so use it to learn a level's flow.
-- **Run agent** sends your mission and the plugged-in tools to Claude, which decides everything itself. It works when the game is opened as a claude.ai artifact and uses the player's own Claude plan; the first run asks for permission. Results vary between runs.
+- **Run agent** sends your mission and the plugged-in tools to Claude, which decides everything itself. It works in the claude.ai version ([English](https://claude.ai/artifact/HDzkvQuPtRfKKBz5sCt5Zv) · [中文](https://claude.ai/artifact/4mwyxtLY6snRz9fK2JsRW9)); sign in to Claude, and it uses your own Claude plan; the first run asks for permission. Results vary between runs.
 
 ## 4. Scoring
 

@@ -3,7 +3,7 @@
 **A 12-level pixel puzzle game that teaches how modern AI applications actually work.**
 Tool use · MCP · RAG · embeddings · prompt injection · guardrails · multi-agent systems · memory · vector databases · evals
 
-**[▶ Play in your browser](https://frozenheart123.github.io/bit7-facility-escape/)** · [简体中文](README.zh-CN.md) · [Player guide](docs/PLAYER_GUIDE.md) · [Contributing](CONTRIBUTING.md)
+**[▶ Play in your browser](https://frozenheart123.github.io/bit7-facility-escape/)** · **[🤖 Play with live AI (claude.ai)](https://claude.ai/artifact/HDzkvQuPtRfKKBz5sCt5Zv)** · [简体中文](README.zh-CN.md) · [Player guide](docs/PLAYER_GUIDE.md) · [Contributing](CONTRIBUTING.md)
 
 ![BIT-7 Facility Escape: the agent asks for approval before pulling a fuse while the live flow diagram shows the request](docs/screenshots/hero.jpg)
 
@@ -57,9 +57,9 @@ Also included:
 
 | | Offline demo | Live agent |
 |---|---|---|
-| Where it works | Anywhere: `index.html`, GitHub Pages, any static host | When the page is opened as a claude.ai artifact |
+| Where it works | Anywhere: [GitHub Pages](https://frozenheart123.github.io/bit7-facility-escape/), `index.html`, any static host | The claude.ai version: [English](https://claude.ai/artifact/HDzkvQuPtRfKKBz5sCt5Zv) · [中文](https://claude.ai/artifact/4mwyxtLY6snRz9fK2JsRW9) |
 | Who makes decisions | A pre-written scripted agent | Claude, in real time |
-| Cost | Free | Uses the viewer's own Claude plan; asks for permission first |
+| Cost | Free, no account needed | Uses the player's own Claude plan (never the author's); asks for permission first |
 | Same result every time? | Yes | No, which is what the Evals tab is for |
 
 Everything except **Run agent** and **Run evals** works offline: demos, workflows, the knowledge explorer, the codex, the knowledge check and the system check.

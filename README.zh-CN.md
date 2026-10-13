@@ -3,7 +3,7 @@
 **一个 12 关的像素解谜游戏，玩着学会现代 AI 应用到底是怎么运作的。**
 工具调用 · MCP · RAG · Embedding · 提示注入 · Guardrail · 多智能体 · 记忆 · 向量数据库 · 评测
 
-**[▶ 在浏览器里直接玩](https://frozenheart123.github.io/bit7-facility-escape/)** · [English](README.md) · [游玩说明书](docs/PLAYER_GUIDE.zh-CN.md) · [参与贡献](CONTRIBUTING.md)
+**[▶ 在浏览器里直接玩](https://frozenheart123.github.io/bit7-facility-escape/)** · **[🤖 玩真 AI 版（claude.ai）](https://claude.ai/artifact/4mwyxtLY6snRz9fK2JsRW9)** · [English](README.md) · [游玩说明书](docs/PLAYER_GUIDE.zh-CN.md) · [参与贡献](CONTRIBUTING.md)
 
 ![BIT-7 设施突围：Agent 拉保险丝前请求人工批准，右边流程图实时显示请求](docs/screenshots/hero.jpg)
 
@@ -51,9 +51,9 @@
 
 | | 离线演示 | 运行 Agent |
 |---|---|---|
-| 在哪里能用 | 任何地方：`index.html`、GitHub Pages、任何静态网站 | 在 claude.ai 上以 artifact 打开时 |
+| 在哪里能用 | 任何地方：[GitHub Pages](https://frozenheart123.github.io/bit7-facility-escape/)、`index.html`、任何静态网站 | claude.ai 版：[中文](https://claude.ai/artifact/4mwyxtLY6snRz9fK2JsRW9) · [English](https://claude.ai/artifact/HDzkvQuPtRfKKBz5sCt5Zv) |
 | 谁做决定 | 预先写好的脚本 Agent | Claude 实时决策 |
-| 费用 | 免费 | 用玩家自己的 Claude 额度，第一次会先请求同意 |
+| 费用 | 免费，不需要账号 | 用玩家自己的 Claude 额度（不会用到作者的），第一次会先请求同意 |
 | 每次结果一样吗 | 一样 | 不一样，这正是“评测”标签页的用途 |
 
 除了“运行 Agent”和“开始评测”，其余功能都能离线使用：演示、固定流程、知识库、图鉴、知识自测、系统自检。
