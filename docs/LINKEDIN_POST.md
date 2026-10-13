@@ -1,6 +1,6 @@
 # LinkedIn launch kit
 
-Links are filled in; just replace `__/16` with your knowledge-check score. Attach `screenshots/hero.jpg` (or a short screen recording of a level) as the post image. LinkedIn tends to show posts without outbound links to more people, so put the links in the first comment.
+Links are filled in; just replace `__/16` with your knowledge-check score. Attach `linkedin/cover-en@2x.png` to the English post and `linkedin/cover-zh@2x.png` to the Chinese one (a short screen recording of a level also works well). LinkedIn tends to show posts without outbound links to more people, so put the links in the first comment.
 
 ---
 

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BIT-7 cover</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@500;700;900&family=Silkscreen&display=swap">
+<style>
+/* 1200×627 LinkedIn / Open Graph cover. Render: open cover.html#en or #zh at 1200×627. */
+:root{--bg:#12141c;--panel:#1a1d28;--line:#2d3246;--ink:#ebe6d6;--muted:#9a9fb5;--amber:#f2a541;--teal:#4fb3a9;--lilac:#b49be0;--red:#e5604f}
+*{box-sizing:border-box;margin:0}
+html,body{width:1200px;height:627px;overflow:hidden;background:var(--bg)}
+body{font-family:"IBM Plex Sans","Noto Sans SC",sans-serif;color:var(--ink);position:relative}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:24px 24px}
+.glow{position:absolute;right:-120px;top:-160px;width:720px;height:720px;background:radial-gradient(circle,rgba(79,179,169,.16),transparent 62%)}
+.glow2{position:absolute;left:-200px;bottom:-260px;width:640px;height:640px;background:radial-gradient(circle,rgba(242,165,65,.10),transparent 62%)}
+.left{position:absolute;left:60px;top:52px;width:610px;display:grid;gap:18px}
+.logo{display:flex;align-items:center;gap:14px}
+.chip{font-family:"Silkscreen",monospace;font-size:20px;background:var(--amber);color:#1a1408;padding:8px 12px;box-shadow:4px 4px 0 #6b4a17;letter-spacing:.04em}
+.kicker{font-family:"Silkscreen",monospace;font-size:15px;color:var(--teal);letter-spacing:.08em}
+h1{font-family:"Silkscreen",monospace;font-weight:400;font-size:62px;line-height:1;letter-spacing:.01em}
+h1.zh{font-family:"Noto Sans SC",sans-serif;font-weight:900;font-size:76px;letter-spacing:.04em}
+.tag{font-size:25px;line-height:1.35;font-weight:500;max-width:600px}
+.tag b{color:var(--amber);font-weight:600}
+.chips{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:4px}
+.c{display:flex;align-items:center;gap:8px;background:rgba(26,29,40,.92);border:1px solid var(--line);padding:6px 9px;font-size:15px;font-weight:500;white-space:nowrap}
+.c img{width:22px;height:22px;image-rendering:pixelated;flex:none}
+.c .n{font-family:"Silkscreen",monospace;font-size:10px;color:var(--muted);width:20px}
+.foot{position:absolute;left:60px;bottom:40px;right:60px;display:flex;justify-content:space-between;align-items:center}
+.meta{display:flex;gap:10px}
+.pill{font-size:15px;font-weight:600;border:1px solid var(--line);padding:5px 11px;background:var(--panel)}
+.pill.hi{border-color:var(--teal);color:var(--teal)}
+.url{font-family:"Silkscreen",monospace;font-size:14px;color:var(--muted);letter-spacing:.03em}
+.shot{position:absolute;right:56px;top:66px;width:470px;border:3px solid #0b0c11;box-shadow:0 0 0 1px var(--line),14px 14px 0 rgba(0,0,0,.35);transform:rotate(1.2deg);background:#0b0c11}
+.shot img{display:block;width:100%;height:auto}
+.shot .bar{display:flex;gap:6px;padding:7px 9px;background:#1a1d28;border-bottom:1px solid var(--line)}
+.shot .bar i{width:9px;height:9px;background:#2d3246;display:block}
+.bot{position:absolute;right:372px;top:396px;width:132px;height:132px;image-rendering:pixelated;filter:drop-shadow(6px 6px 0 rgba(0,0,0,.45))}
+.bubble{position:absolute;right:240px;top:352px;background:var(--ink);color:#12141c;font-weight:600;font-size:17px;padding:9px 13px;box-shadow:4px 4px 0 #0b0c11;white-space:nowrap}
+.bubble::after{content:"";position:absolute;left:22px;bottom:-9px;border:9px solid transparent;border-top-color:var(--ink);border-bottom:0}
+.bubble code{font-family:"Silkscreen",monospace;font-size:13px;background:#18302e;color:#a9d8d2;padding:2px 6px;margin-right:6px;font-weight:400}
+.play{position:absolute;right:56px;top:470px;display:flex;align-items:center;gap:10px;background:var(--amber);color:#1a1408;font-weight:700;font-size:18px;padding:11px 18px;box-shadow:4px 4px 0 #6b4a17}
+</style>
+</head>
+<body>
+<div class="grid"></div><div class="glow"></div><div class="glow2"></div>
+<div class="left">
+  <div class="logo"><span class="chip">BIT-7</span><span class="kicker" id="kicker"></span></div>
+  <h1 id="title"></h1>
+  <p class="tag" id="tag"></p>
+  <div class="chips" id="chips"></div>
+</div>
+<div class="shot"><div class="bar"><i></i><i></i><i></i></div><img src="../screenshots/live-flow.jpg" alt=""></div>
+<div class="bubble" id="bubble"></div>
+<div class="play" id="play"></div>
+<div class="foot"><div class="meta" id="meta"></div><span class="url">frozenheart123.github.io/bit7-facility-escape</span></div>
+<script>
+const PAL = { i: "#ebe6d6", m: "#9a9fb5", d: "#4b5274", n: "#1b2030", a: "#f2a541", t: "#4fb3a9", T: "#2f6f69", l: "#b49be0", L: "#6b5a8f", r: "#e5604f", g: "#86d07f", b: "#7a5a3a", p: "#e7a0b4" };
+const ICONS = {
+  robot: [".....t......",".....m......","...iiiiii...","...innnni...","...inanai...","...iiiiii...","..iiiiiiii..","..iiiaaiii..","..iiiiiiii..","..mmmmmmmm..","..dmddddmd..","............"],
+  wrench: ["........mm..",".......m..m.",".......m..m.","........mmm.",".......mmm..","......mmm...",".....mmm....","....mmm.....","...mmm......","..mmm.......","..mm........","............"],
+  plug: ["...m....m...","...m....m...","..tttttttt..","..tttttttt..","..tttttttt..","...tttttt...","....tttt....",".....mm.....",".....mm.....",".....mm.....","......mm....",".......mm..."],
+  books: ["............","..rr.aa.....","..rr.aa.ll..","..rr.aa.ll..","..ir.ai.ll..","..rr.aa.li..","..rr.aa.ll..","..rr.aa.ll..","..rr.aa.ll..",".bbbbbbbbbb.",".bbbbbbbbbb.","............"],
+  dots: ["............",".l..........","...l.l......","..l.........",".........a..",".......a..a.","........a...","............","..t.........",".t..t.......","...t........","............"],
+  docbad: ["..iiiiii....","..i....ii...","..i....iii..","..i.mmm..i..","..i......i..","..i.rrrr.i..","..i.rrrr.i..","..i......i..","..i.mmm..i..","..i......i..","..iiiiiiii..","............"],
+  eye: ["............","............","....iiii....","..ii....ii..",".i...tt...i.","i...tnnt...i","i...tnnt...i",".i...tt...i.","..ii....ii..","....iiii....","............","............"],
+  brain: ["............","...pppppp...","..pppppppp..",".ppLpppLppp.",".pppppppppp.",".ppLppppLpp.",".pppppppppp.","..ppLppLpp..","...pppppp...",".....pp.....",".....pp.....","............"],
+  bridge: ["............","............",".m........m.",".mm......mm.",".mbbbbbbbbm.",".mbdbdbdbbm.",".mbbbbbbbbm.",".m........m.",".m........m.","TTTTTTTTTTTT","TTTTTTTTTTTT","............"],
+  notebook: [".m.iiiiiiii.","mmmi......i.",".m.i.mmmm.i.","mmmi......i.",".m.i.mmmm.i.","mmmi......i.",".m.i.mmm..i.","mmmi......i.",".m.i.mmmm.i.","mmmi......i.",".m.iiiiiiii.","............"],
+  shield: [".tttttttttt.",".tTTTTTTTTt.",".tTTTTTTgTt.",".tTTTTTTgTt.",".tTgTTTgTTt.",".tTTgTgTTTt.","..tTTgTTTt..","..tTTTTTTt..","...tTTTTt...","....tTTt....",".....tt.....","............"],
+  gear: ["............",".....aa.....","..aa.aa.aa..","..aaaaaaaa..","...aa..aa...",".aaa....aaa.",".aaa....aaa.","...aa..aa...","..aaaaaaaa..","..aa.aa.aa..",".....aa.....","............"],
+  funnel: ["llllllllllll",".llllllllll.","..llllllll..","...llllll...","....llll....",".....ll.....",".....ll.....",".....ll.....",".....ll.....","............",".....aa.....",".....aa....."],
+};
+function icon(name) {
+  const c = document.createElement("canvas"); c.width = 12; c.height = 12; const g = c.getContext("2d");
+  ICONS[name].forEach((row, y) => [...row].forEach((ch, x) => { if (PAL[ch]) { g.fillStyle = PAL[ch]; g.fillRect(x, y, 1, 1); } }));
+  return c.toDataURL();
+}
+const T = {
+  en: { kicker: "AN AI LEARNING GAME", title: "FACILITY<br>ESCAPE", tag: "Learn how <b>AI agents</b> really work, by playing.", play: "▶ Play free in your browser", bubble: "<code>move_to</code>Heading for the exit!",
+    chips: ["Tool use", "RAG", "Planning", "Embeddings", "Prompt injection", "Vision", "Multi-agent", "Tool design", "Memory", "Guardrails", "Workflow vs agent", "Vector DB"],
+    meta: [["12 levels", 1], ["Free", 0], ["Open source", 0], ["EN / 中文", 0]] },
+  zh: { kicker: "AI 学习游戏", title: "设施突围", tag: "玩着学会 <b>AI Agent</b> 到底怎么运作。", play: "▶ 免费，浏览器直接玩", bubble: "<code>move_to</code>去出口！",
+    chips: ["工具调用", "RAG 检索", "规划", "Embedding", "提示注入", "多模态", "多智能体", "工具设计", "记忆", "Guardrail", "流程 vs Agent", "向量数据库"],
+    meta: [["12 关", 1], ["免费", 0], ["开源", 0], ["中文 / EN", 0]] },
+};
+const CHIP_ICONS = ["wrench", "books", "plug", "dots", "docbad", "eye", "brain", "bridge", "notebook", "shield", "gear", "funnel"];
+const lang = location.hash === "#zh" ? "zh" : "en", t = T[lang];
+document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+document.getElementById("kicker").textContent = t.kicker;
+const h1 = document.getElementById("title"); h1.innerHTML = t.title; if (lang === "zh") h1.classList.add("zh");
+document.getElementById("tag").innerHTML = t.tag;
+document.getElementById("play").textContent = t.play;
+document.getElementById("bubble").innerHTML = t.bubble;
+const bot = new Image(); bot.className = "bot"; bot.alt = ""; bot.src = icon("robot"); document.getElementById("bubble").before(bot);
+const chips = document.getElementById("chips");
+t.chips.forEach((name, i) => { const d = document.createElement("div"); d.className = "c"; const n = document.createElement("span"); n.className = "n"; n.textContent = String(i + 1).padStart(2, "0"); const im = document.createElement("img"); im.src = icon(CHIP_ICONS[i]); const s = document.createElement("span"); s.textContent = name; d.append(n, im, s); chips.append(d); });
+const meta = document.getElementById("meta");
+t.meta.forEach(([txt, hi]) => { const s = document.createElement("span"); s.className = "pill" + (hi ? " hi" : ""); s.textContent = txt; meta.append(s); });
+</script>
+</body>
+</html>

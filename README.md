@@ -111,6 +111,7 @@ index.html              The whole game (HTML, CSS, JS)
 docs/PLAYER_GUIDE.md    Level-by-level guide (English)
 docs/PLAYER_GUIDE.zh-CN.md
 docs/LINKEDIN_POST.md   Ready-to-post announcement drafts
+docs/linkedin/          Cover images (EN / zh) and their HTML source
 docs/screenshots/       Images used in the docs
 CONTRIBUTING.md         How to change the game or add a level
 CHANGELOG.md
