@@ -3,7 +3,7 @@
 **一个 12 关的像素解谜游戏，玩着学会现代 AI 应用到底是怎么运作的。**
 工具调用 · MCP · RAG · Embedding · 提示注入 · Guardrail · 多智能体 · 记忆 · 向量数据库 · 评测
 
-[English](README.md) · [游玩说明书](docs/PLAYER_GUIDE.zh-CN.md) · [参与贡献](CONTRIBUTING.md)
+**[▶ 在浏览器里直接玩](https://frozenheart123.github.io/bit7-facility-escape/)** · [English](README.md) · [游玩说明书](docs/PLAYER_GUIDE.zh-CN.md) · [参与贡献](CONTRIBUTING.md)
 
 ![BIT-7 设施突围：Agent 拉保险丝前请求人工批准，右边流程图实时显示请求](docs/screenshots/hero.jpg)
 
@@ -61,14 +61,14 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/YOUR-USER/bit7-facility-escape.git
+git clone https://github.com/frozenheart123/bit7-facility-escape.git
 cd bit7-facility-escape
 python -m http.server 8000
 ```
 
 然后打开 <http://localhost:8000>。直接双击 `index.html` 也可以。
 
-**用 GitHub Pages 发布：** 推送仓库后，在 *Settings → Pages* 选择 *Deploy from a branch → main → / (root)*。然后把 `index.html` 脚本开头的 `PROJECT_URL` 改成你的 Pages 网址，知识自测分享的成绩就会附上游戏链接。
+**用 GitHub Pages 发布：** 推送仓库后，在 *Settings → Pages* 选择 *Deploy from a branch → main → / (root)*。如果你 fork 了这个项目，把 `index.html` 里的 `PROJECT_URL` 和 `og:` 标签改成你自己的 Pages 网址，分享的成绩和链接预览才会指向你的版本。
 
 ## 运作原理
 

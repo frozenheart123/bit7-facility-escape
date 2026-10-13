@@ -1,6 +1,6 @@
 # LinkedIn launch kit
 
-Replace `<GAME LINK>` and `<REPO LINK>` before posting. Attach `screenshots/hero.jpg` (or a short screen recording of a level) as the post image. LinkedIn tends to show posts without outbound links to more people, so put the links in the first comment.
+Links are filled in; just replace `__/16` with your knowledge-check score. Attach `screenshots/hero.jpg` (or a short screen recording of a level) as the post image. LinkedIn tends to show posts without outbound links to more people, so put the links in the first comment.
 
 ---
 
@@ -30,8 +30,8 @@ What concept do you find hardest to explain to non-engineers?
 #AI #GenerativeAI #AIAgents #RAG #MCP #LLM #FinTech #LearningByDoing #OpenSource
 
 **First comment:**
-▶️ Play: <GAME LINK>
-💻 Code (MIT): <REPO LINK>
+▶️ Play: https://frozenheart123.github.io/bit7-facility-escape/
+💻 Code (MIT): https://github.com/frozenheart123/bit7-facility-escape
 
 ---
 
@@ -59,11 +59,11 @@ What concept do you find hardest to explain to non-engineers?
 #AI #人工智能 #AIAgent #RAG #MCP #大模型 #金融科技 #开源
 
 **第一条留言：**
-▶️ 试玩：<GAME LINK>
-💻 源码（MIT）：<REPO LINK>
+▶️ 试玩：https://frozenheart123.github.io/bit7-facility-escape/
+💻 源码（MIT）：https://github.com/frozenheart123/bit7-facility-escape
 
 ---
 
 ## Short version (for a comment or repost)
 
-Learn AI agents by playing: 12 pixel-art levels covering tool use, MCP, RAG, prompt injection, guardrails, memory and vector databases. Free and open source. <GAME LINK>
+Learn AI agents by playing: 12 pixel-art levels covering tool use, MCP, RAG, prompt injection, guardrails, memory and vector databases. Free and open source. https://frozenheart123.github.io/bit7-facility-escape/

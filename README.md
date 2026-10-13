@@ -3,7 +3,7 @@
 **A 12-level pixel puzzle game that teaches how modern AI applications actually work.**
 Tool use · MCP · RAG · embeddings · prompt injection · guardrails · multi-agent systems · memory · vector databases · evals
 
-[简体中文](README.zh-CN.md) · [Player guide](docs/PLAYER_GUIDE.md) · [Contributing](CONTRIBUTING.md)
+**[▶ Play in your browser](https://frozenheart123.github.io/bit7-facility-escape/)** · [简体中文](README.zh-CN.md) · [Player guide](docs/PLAYER_GUIDE.md) · [Contributing](CONTRIBUTING.md)
 
 ![BIT-7 Facility Escape: the agent asks for approval before pulling a fuse while the live flow diagram shows the request](docs/screenshots/hero.jpg)
 
@@ -67,14 +67,14 @@ Everything except **Run agent** and **Run evals** works offline: demos, workflow
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR-USER/bit7-facility-escape.git
+git clone https://github.com/frozenheart123/bit7-facility-escape.git
 cd bit7-facility-escape
 python -m http.server 8000
 ```
 
 Then open <http://localhost:8000>. Opening `index.html` directly from disk also works.
 
-**Host it on GitHub Pages:** push the repo, then in *Settings → Pages* choose *Deploy from a branch → main → / (root)*. Then set `PROJECT_URL` near the top of the script in `index.html` to your Pages URL, so knowledge-check results link back to the game.
+**Host it on GitHub Pages:** push the repo, then in *Settings → Pages* choose *Deploy from a branch → main → / (root)*. If you fork it, set `PROJECT_URL` and the `og:` tags in `index.html` to your own Pages URL, so knowledge-check results and link previews point to your copy.
 
 ## How it works
 

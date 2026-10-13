@@ -7,8 +7,9 @@
 <meta property="og:title" content="BIT-7 Facility Escape">
 <meta property="og:description" content="Learn how AI agents really work by playing: plug MCP servers into an LLM robot and help it escape a facility.">
 <meta property="og:type" content="website">
-<!-- For LinkedIn previews, add an absolute image URL once the game is hosted, e.g.:
-<meta property="og:image" content="https://YOUR-USER.github.io/bit7-facility-escape/docs/screenshots/hero.jpg"> -->
+<meta property="og:url" content="https://frozenheart123.github.io/bit7-facility-escape/">
+<meta property="og:image" content="https://frozenheart123.github.io/bit7-facility-escape/docs/screenshots/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <title>BIT-7 Facility Escape</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -533,7 +534,7 @@ const BASE = ["nav", "hands", "security", "archive"];
 const store = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
 const load = (k, d) => { try { const v = JSON.parse(localStorage.getItem(k) || "null"); return v ?? d; } catch (e) { return d; } };
 // Optional: set to your public URL (e.g. GitHub Pages) so shared knowledge-check results link back to the game.
-const PROJECT_URL = "";
+const PROJECT_URL = "https://frozenheart123.github.io/bit7-facility-escape/";
 const autoLang = () => ((navigator.language || "").toLowerCase().startsWith("zh") ? "zh" : "en");
 let lang = load("bit7-lang", null); if (lang !== "zh" && lang !== "en") lang = LANG_DEFAULT === "auto" ? autoLang() : LANG_DEFAULT;
 
